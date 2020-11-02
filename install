@@ -5,7 +5,7 @@ FPREFIX="=====>"
 PREFIX="----->"
 INDENT="      "
 
-export SWARMLET_REPO=${SWARMLET_REPO:="https://github.com/swarmlet/swarmlet.git"}
+export SWARMLET_REPO=${SWARMLET_REPO:="https://github.com/felipeleon73/swarmlet.git"}
 export SWARMLET_INSTALL_ROOT="/tmp/swarmlet"
 
 # Check if user is root
