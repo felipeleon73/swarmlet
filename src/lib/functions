@@ -48,7 +48,7 @@ get-own-ip-address() {
 
 install-ansible() {
   echo "$PREFIX Installing Ansible"
-  $SUDO apt-add-repository -y --update ppa:ansible/ansible &>/dev/null
+#  $SUDO apt-add-repository -y --update ppa:ansible/ansible &>/dev/null
   $SUDO "$PKG_MANAGER" update -y -qq &>/dev/null
   $SUDO "$PKG_MANAGER" install -y -qq ansible &>/dev/null
 
